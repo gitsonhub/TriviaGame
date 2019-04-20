@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/gif" href="http://kramersapartment.com/wp-content/uploads/seinfeld-logo-319-the-good-samaritan.jpg"/>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400i" rel="stylesheet">
+</head>
+
+<body>
+  
+  <audio controls autoplay loop>
+    <source src="./assets/images/none.mp3" type="audio/mp3"/>
+  </audio>
+   
+  <div class="container">
+    <div class="jumbotron">
+      <div class="container">
+        <div id="game">
+          <h1>Seinfeld Trivia Game</h1>
+          <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+          <p id="question" class="lead"></p>
+        </div>
+        <div id="results"></div>
+      </div> <!--container-->
+
+      <div class="questions">
+        <div id="choices" class="text-center">
+          <button id="start" class="btn btn-info btn-lg">Start Game</button>
+          <div id="options"></div>          
+        </div>
+      </div> <!--row-->
+    </div> <!--jumbotron -->
+
+    <!-- jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- TRIVIA APP JS -->
+    <script src="./assets/javascript/app.js"></script>  
+  </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+	background: url("../images/seinfeld_logo.jpg");
+	background-size: 100% 160%;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	text-shadow: 1px 1px black;
+	color: red;
+}
+
+.lead{
+	font-size: 32px;
+}
+#question {
+	font-size: 50px;
+}
+h1{
+	font-size: 75px;
+}
+.text-muted{
+	color: blue;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: gold;
+}
+.questions{
+	text-align: center;
+}
+#results {
+	font-size: 40px;
+}
